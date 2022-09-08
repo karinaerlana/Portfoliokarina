@@ -12,16 +12,12 @@ img {
   display: block;
 }
 
-body {
-  margin-bottom: 1000px;
-}
-
 /* cabeçalho*/
 .header {
   background: black;
   max-width: 1200px;
   padding: 40px 20px;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +47,13 @@ body {
   display: block;
 }
 
+.header-menu a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  border: 2px solid #a45ac4;
+}
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
@@ -77,7 +80,7 @@ body {
 
 .apresentação h1 {
   font-size: 64px;
-  line-height: 128px;
+  line-height: 80px;
 }
 
 .apresentação p {
@@ -124,9 +127,31 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   width: 600px;
+  line-height: 32px;
   margin: 20px;
   padding: 20px;
   flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .sobremim-texto {
+    flex-wrap: wrap;
+    margin-left: auto;
+    font-size: 10px;
+    width: 400px;
+  }
+  .subtitulo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 520px) {
+  .sobremim-texto {
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 10px;
+    width: auto;
+  }
 }
 
 /*segunda section*/
@@ -151,14 +176,35 @@ body {
   line-height: 32px;
   margin: 20px;
   padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .formação-list {
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 10px;
+    width: 400px;
+  }
+  .subtitulo2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .formação-list {
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 10px;
+    width: auto;
+  }
 }
 
 /* começo do footer*/
-h3 {
-  align-items: center;
+.subtitulo3 {
+  text-align: center;
   font-size: 32px;
-  margin: 20px;
-  color: #a45ac4;
+  color: white;
 }
 
 footer {
@@ -168,12 +214,33 @@ footer {
   margin: 0 auto;
 }
 
-.container-form {
-  display: flex;
+.container {
+  margin-bottom: 30px;
+  border-radius: 4px;
   align-items: center;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  justify-items: center;
 }
 
 span {
+  color: white;
+}
+
+.footer-list {
+  font-size: 24px;
+  color: white;
+  align-items: center;
+}
+.footer-list li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
   color: white;
 }
 
@@ -181,6 +248,8 @@ input {
   width: 100%;
   padding: 8px 0px;
   margin: 8px 0px;
+  border-radius: 5px;
+  border: 2px solid #a45ac4;
 }
 
 button {
@@ -188,4 +257,5 @@ button {
   height: 40px;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid #a45ac4;
 }
