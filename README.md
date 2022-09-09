@@ -1,5 +1,28 @@
-# Portfolio karina
-### No meu Portfolio escrevi um pouco sobre mim, hobby e interesses.
-### Utilizei HTML e CSS
-### Consultei a documentação Mdn # Markdown (mdn) (https://developer.mozilla.org/pt-BR/)
+# Título do Projeto
 
+
+### Portfolio Karina
+
+
+# Descrição
+
+
+### No meu primeiro projeto escrevi um pouco sobre mim, hobbys e interesses.
+
+
+# Tecnologias
+
+
+### HTML e CSS
+
+
+# Documentação
+
+
+### Utilizei a documentação do MDN
+### Markdown [mdn] (https://developer.mozilla.org/pt-BR/)
+
+# Autor(a)
+
+### Karina Pacifico
+### Markdown [github] (https://github.com/karinaerlana)
